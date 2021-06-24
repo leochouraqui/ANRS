@@ -1,0 +1,79 @@
+
+.content{
+    height:100%;
+}
+section.home{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.theLayOut{
+    background: #fff;
+    width: 100%;
+    margin: auto;
+
+}
+.theLayOut .starter-logo{
+    margin-bottom: 25px;
+}
+section.home .theContents .theTitle h4{
+    font-family: fantasy;
+    color: #000;
+    font-size: 16px;
+
+}
+
+section.home .theContents .theMiniDesc p{
+    font-size: 14px;
+    font-weight: 500;
+}
+section.home .theButtons{
+    display: flex;
+    flex-direction: column;
+}
+section.home .theButtons .btn button{
+    width: 180px;
+    padding: 8px 25px;
+    border: 1px solid #3843F7;
+    background: none;
+    border-radius: 25px;
+}
+section.home .theButtons .btn-bg-ase button{
+    background: #3843F7;
+    color: #fff;
+}
+section.home .btmLogos{
+    width: 90%;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+/* form section css */
+section.home .theForm{
+    padding: 15px 0;
+    width: 85%;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+section.home .theForm form .theMail{
+    margin-bottom: 4px;
+}
+section.home .theForm form label{
+    padding: 4px 0;
+}
+section.home .theForm form input{
+    width: 100%;
+    border: none;
+    background: #D2D2D2;
+    padding: 6px;
+    outline: none;
+}

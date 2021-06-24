@@ -1,0 +1,92 @@
+.network {
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+    height: 508px;
+    padding: 10px;
+}
+
+.network-subhead-content {
+    text-align: center;
+}
+.forum {
+    flex-grow: 1;
+    color: #3742fa;
+    border-bottom: 1px solid #3742fa;
+}
+.forum > p,
+.rdv > p {
+    margin: 0;
+}
+.rdv {
+    flex-grow: 1;
+    border-bottom: 1px solid #e0dfdf;
+}
+.network-heading {
+    padding: 15px 0px;
+}
+.network-heading h2 {
+    margin: 10px 0 30px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.search-box {
+    margin: 12px 0 50px 0;
+    width: 355px;
+    background-color: #3742fa;
+    border-radius: 6px;
+    padding: 12px 25px;
+}
+.search-box .search-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box .search-content .theSearcher {
+    width: 50%;
+}
+.search-box .search-content .selecter {
+    width: 25%;
+}
+.search-box .search-content .theSearcher input,
+.search-box .search-content .selecter select {
+    width: 100%;
+    padding: 2px 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.color-divs-descs {
+    width: 100%;
+}
+.color-divs-descs .color-divs-dess {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 5px;
+    background: #1e90ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.color-divs-descs .black-bg {
+    background: #2f3542;
+}
+.color-divs-descs .color-divs-dess .bottom-lines p,
+.color-divs-descs .color-divs-dess .top-line p {
+    margin: 0;
+    padding: 0;
+}
+.color-divs-descs .color-divs-dess .top-line p {
+    margin-bottom: 8px;
+}
+.color-divs-descs .color-divs-dess .bottom-lines {
+    display: flex;
+    justify-content: space-between;
+}
+.color-divs-descs .color-divs-dess p {
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+}

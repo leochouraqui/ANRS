@@ -1,0 +1,46 @@
+.event {
+    font-family: "Poppins", sans-serif;
+    width: 400px;
+    height: 508px;
+    padding: 10px;
+}
+.heading > p {
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.event-container {
+    margin: 0px auto;
+    background-color: #2f3542;
+    width: 314px;
+}
+.event-container-header {
+    border-bottom: 1px solid white;
+}
+.event-container-card {
+    padding: 40px 20px;
+    color:var(--text1)
+}
+.single-card {
+    margin: 10px 0px;
+    overflow: hidden;
+    border-radius: 8px;
+    text-align: center;
+}
+.card-time {
+    padding: 10px;
+    background-color: #3742fa;
+}
+.card-text {
+    flex-grow: 3;
+    height: 67px;
+    padding-top: 10px;
+    line-height: 20px;
+    background-color: #1e90ff;
+}
+.card-check-icon {
+    padding: 22px;
+    background-color: #3742fa;
+}

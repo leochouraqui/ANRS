@@ -1,0 +1,101 @@
+
+section#academy-tab-content{
+    .academy-intro-box{
+        width:100%;
+        border-radius: 10px;
+        overflow: hidden;
+        .logo{
+            background:#2F3542;
+        }
+        .text{
+            background:var(--color1);
+            color:var(--text1);
+            padding:10px;
+        }
+    }
+    .chart{
+        display: flex;
+        height: 200px;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 50px;
+        .chart-box{
+            width:(100% / 7);
+            text-align: center;
+            .up-text{
+                font-size:12px;
+                padding-bottom: 10px;
+                display: block;
+            }
+            .bar{
+                width:20px;
+                height:50%;
+                background:var(--color1)
+                ;margin: auto;
+            }
+            .down-text{
+                background:var(--text1);
+            }
+
+
+
+
+            &:nth-child(1){
+                .bar{
+                    height:20%;
+                }
+                .down-text{
+
+                }
+            }
+            &:nth-child(2){
+                .bar{
+                    height:60%;
+                }
+                .down-text{
+                    
+                }
+            }
+            &:nth-child(3){
+                .bar{
+                    height:35%;
+                }
+                .down-text{
+                    
+                }
+            }
+            &:nth-child(4){
+                .bar{
+                    height:95%;
+                }
+                .down-text{
+                    
+                }
+            }
+            &:nth-child(5){
+                .bar{
+                    height:73.33%;
+                }
+                .down-text{
+                    
+                }
+            }
+            &:nth-child(6){
+                .bar{
+                    height:33.33%;
+                }
+                .down-text{
+                    
+                }
+            }
+            &:nth-child(7){
+                .bar{
+                    height:63.33%;
+                }
+                .down-text{
+                    
+                }
+            }
+        }
+    }
+}
